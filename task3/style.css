@@ -1,0 +1,19 @@
+#PersonalDetails {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+#PaymentDetails {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+#cvv-error {
+    display: none;
+}
+
+#CVV:invalid+#cvv-error {
+    display: inline;
+}

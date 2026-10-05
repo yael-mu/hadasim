@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="next.html" autocomplete="on">
+        <fieldset id="PersonalDetails">
+            <legend>Personal Details</legend>
+
+            <label for="full_name" >full name</label>
+            <input type="text" id="full_name" required minlength="2" autocomplete="name">
+
+            <label for="email">email</label>
+            <input type="email" id="email" required>
+
+            <label for="tel">tel</label>
+            <input type="tel" id="tel" required pattern="05[0-9]{8}">
+        </fieldset>
+
+        <fieldset>
+            <legend>Ticket & Workshops</legend>
+
+            <label for="card">Card type</label>
+            <select name="card" id="card" required>
+                <option value="VIP">VIP</option>
+                <option value="Standard">Standard</option>
+                <option value="Student">Student</option>
+            </select>
+            <fieldset>
+                <legend>Workshops</legend>
+                <label for="web-performance">Web Performance</label>
+                <input type="checkbox" name="topic" id="web-performance" value="web-performance">
+
+                <label for="accessibility">Accessibility</label>
+                <input type="checkbox" name="topic" id="accessibility" value="accessibility">
+
+                <label for="testing">Testing</label>
+                <input type="checkbox" id="testing" value="testing">
+            </fieldset>
+            <fieldset>
+                <legend>Diet</legend>
+                <label for="Halal">Halal</label>
+                <input type="radio" id="Halal" value="Halal">
+
+                <label for="Vegan">Vegan</label>
+                <input type="radio" id="Vegan" value="Vegan">
+
+                <label for="Kosher">Kosher</label>
+                <input type="radio" id="Kosher" value="Kosher">
+
+                <label for="None">None</label>
+                <input type="radio" id="None" value="None">
+
+                <label for="Other">Other</label>
+                <input type="radio" id="Other" value="Other" required>
+            </fieldset>
+        </fieldset>
+
+        <fieldset id="PaymentDetails">
+            <legend>Payment Details</legend>
+
+            <label for="card number">card number</label>
+            <input type="text" id="card number" pattern="[0-9 ]{13,19}" autocomplete="cc-number">
+
+            <label for="Expiry date">Expiry date</label>
+            <input type="month" id="Expiry date" min="2026-09" autocomplete="cc-exp">
+
+            <label for="CVV">CVV</label>
+            <input type="password" id="CVV" pattern="[0-9]{3,4}" aria-describedby="cvv-error" autocomplete="cc-csc">
+            <span id="cvv-error">is not valid</span>
+            
+            <label for="Agreements">Agreements</label>
+            <input type="file" id="Agreements" readonly accept=".pdf,.jpg,.png">
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Agreements</legend>
+    
+            <input type="checkbox" id="Acceptance" required>
+            <label for="Acceptance">Acceptance of Terms of Use</label>
+        </fieldset>
+
+        <input type="submit">
+    </form>
+</body>
+
+</html>
