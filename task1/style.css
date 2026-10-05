@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    background: #f4f1e8;
+    color: #263238;
+    line-height: 1.7;
+}
+
+header {
+    background: #132b3f;
+    color: white;
+    padding: 35px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0 0 8px;
+    font-size: 2.6rem;
+}
+
+header p {
+    margin: 0;
+}
+
+nav {
+    background: #1e465f;
+    padding: 12px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 1050px;
+    margin: auto;
+    padding: 30px 20px 60px;
+}
+
+section,
+article,
+aside {
+    background: white;
+    padding: 25px;
+    margin: 22px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px #0001;
+}
+
+h2 {
+    color: #174a67;
+    border-bottom: 2px solid #d4b36a;
+    padding-bottom: 6px;
+}
+
+h3 {
+    color: #245f7d;
+}
+
+figure {
+    margin: 20px 0;
+}
+
+figure img {
+    width: 100%;
+    max-height: 420px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+figcaption {
+    font-size: .9rem;
+    color: #5b6670;
+    margin-top: 6px;
+}
+
+.hero img {
+    max-height: 500px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
+}
+
+.gallery figure {
+    margin: 0;
+}
+
+.gallery img {
+    height: 190px;
+}
+
+.explore {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.explore a,
+.button {
+    background: #d4b36a;
+    color: #17252f;
+    padding: 8px 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+blockquote {
+    border-left: 5px solid #d4b36a;
+    margin: 25px 0;
+    padding: 15px 25px;
+    background: #f8f4e8;
+    font-style: italic;
+}
+
+details {
+    background: #eef3f5;
+    margin: 10px 0;
+    padding: 12px 16px;
+    border-radius: 7px;
+}
+
+summary {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.media {
+    text-align: center;
+}
+
+iframe {
+    width: 100%;
+    min-height: 320px;
+    border: 0;
+    border-radius: 8px;
+}
+
+footer {
+    background: #132b3f;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ccd4d8;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background: #e8eef1;
+}
+
+@media (max-width: 650px) {
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+}
