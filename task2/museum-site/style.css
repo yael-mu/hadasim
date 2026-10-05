@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+    padding: 30px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.pages {
+    background-color: rgb(249, 234, 215);
+    border-radius: 20px;
+    padding: 8px;
+    margin: 8px;
+}
+
+nav {
+    background-color: #333;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    color: beige;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    border-bottom: 1px solid #999;
+}
+
+img {
+    height: 50px;
+}
+
+article {
+    background-color: rgb(249, 234, 215);
+    border-radius: 20px;
+    padding: 8px;
+    margin: 8px;
+}
+
+footer.artist {
+    text-align: center;
+    padding: 20px;
+}
