@@ -1,0 +1,102 @@
+* {
+    direction: rtl;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #263746;
+}
+
+header {
+    background-color: #183b56;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+section {
+    background-color: white;
+    width: 80%;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px #00000015;
+    text-align: center;
+}
+
+section p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+a {
+    display: inline-block;
+    background-color: #287271;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    margin-top: 15px;
+}
+
+a:hover {
+    background-color: #205b5a;
+}
+
+input,
+select,
+textarea,
+button {
+    font-family: inherit;
+    font-size: 16px;
+    border: 1px solid #bdc9d3;
+    border-radius: 6px;
+    padding: 12px;
+}
+
+#admin {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+select,
+textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+textarea {
+    min-height: 180px;
+    resize: vertical;
+    line-height: 1.5;
+}
+
+button,
+#submit {
+    background-color: #183b56;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 12px 25px;
+    border-radius: 6px;
+}
+
+button:hover,
+#submit:hover {
+    background-color: #285879;
+}
+
+.continer{
+    width: 50%;
+    height: 80%;
+}
