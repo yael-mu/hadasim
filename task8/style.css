@@ -13,6 +13,10 @@ body{
     padding: 5px;
 }
 
+.card:hover {
+    transform: scale(1.1);
+}
+
 .card p::first-letter {
     font-size: 50px;
 }
