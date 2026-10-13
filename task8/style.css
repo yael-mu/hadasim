@@ -1,0 +1,115 @@
+body{
+    background-color: rgb(255, 225, 230);
+}
+.all_card {
+    margin: auto;
+    width: 60%;
+}
+
+.card {
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.card p::first-letter {
+    font-size: 50px;
+}
+
+.card p::first-line {
+    font-weight: bold;
+    color: #888;
+}
+
+.theme-switch {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.theme-switch i {
+    color: #888;
+    font-size: 18px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 36px;
+    height: 20px;
+}
+
+.switch input {
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background-color: #ccc;
+    border-radius: 20px;
+}
+
+.all_card button {
+    margin-left: 15px;
+}
+
+.slider::before {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.switch input:checked+.slider {
+    background-color: #555;
+}
+
+.switch input:checked+.slider::before {
+    transform: translateX(16px);
+}
+
+.head_card {
+    display: flex;
+    justify-content: end;
+}
+
+.delete {
+    background-color: white;
+    border: 1px gray solid;
+    border-radius: 5px;
+}
+
+.delete:hover {
+    background-color: red;
+}
+
+.card:nth-of-type(1) {
+    background-color: rgb(252, 225, 249);
+    border-color: rgb(255, 0, 230);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card:nth-of-type(2) {
+    background-color: rgb(214, 246, 246);
+    border-color: rgb(0, 255, 255);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card:nth-of-type(3) {
+    background-color: rgb(247, 255, 231);
+    border-color: rgb(170, 255, 0);
+    font-family: 'Times New Roman', Times, serif;
+}
+.card:has(input:checked){
+    color: white;
+    background-color: black;
+}
