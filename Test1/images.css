@@ -1,0 +1,109 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    background:
+        linear-gradient(to bottom, transparent 40%, white 100%),
+        linear-gradient(to right, #e8d5ff, #ffe0bd);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0 20px;
+    padding: 10px;
+    display: inline-block;
+    color: black;
+}
+
+header {
+    height: 80px;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    left: 25px;
+}
+
+.logo p {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.logo img {
+    height: 25px;
+}
+
+.action {
+    position: absolute;
+    right: 25px;
+    top: 30%;
+}
+
+#continer {
+    text-align: center;
+    width: 75%;
+    margin: auto;
+}
+
+.image {
+    display: inline-block;
+    margin: 8px;
+}
+
+.image img {
+    border-radius: 25px;
+    height: 150px;
+}
+
+main {
+    text-align: center;
+}
+
+main .h {
+    text-align: left;
+    margin-left: 30%;
+}
+
+.card img {
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+}
+
+.card p {
+    display: inline-block;
+}
+
+.line2, .line1 {
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+footer {
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.line1 h3 {
+    left: 0px;
+}
+
+.line1 {
+    text-align: left;
+}
+
+button {
+    background-color: white;
+    border-radius: 25px;
+}

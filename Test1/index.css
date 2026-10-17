@@ -1,3 +1,7 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 nav {
     padding: 15px;
     text-align: center;
@@ -13,7 +17,6 @@ nav a {
 
 header {
     height: 80px;
-    background-color: aqua;
     position: relative;
 }
 
@@ -35,17 +38,17 @@ header {
     position: absolute;
     right: 25px;
     top: 30%;
-    
+
 }
 
-#continer{
-    border: 2px solid black;
+#continer {
+    border: 1px solid black;
     border-radius: 25px;
     padding: 15px;
     height: 50px;
     width: 75%;
     position: absolute;
-    top: 50%;
+    top: 370px;
     left: 50%;
     transform: translate(-50%, -50%);
 
@@ -56,16 +59,21 @@ header {
     outline: none;
 }
 
-#h1{
-text-align: center;
-}
-main{
-    /* margin: auto; */
-        margin-top: 150px;
+#h1 {
+    text-align: center;
 
 }
 
-#btn{
+main {
+    margin-top: 150px;
+}
+
+#btn {
     position: absolute;
     bottom: 10px;
+}
+
+button {
+    background-color: white;
+    border-radius: 25px;
 }
