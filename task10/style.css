@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.magic-card {
+    height: 200px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgb(163, 163, 163);
+    background-color: #80d6f0;
+
+    animation: bigger 2s ease-in-out forwards,
+        moove 3s infinite alternate;
+
+    transition: rotate 1s, background-color 1s;
+
+}
+
+
+.magic-card:hover {
+    rotate: 360deg;
+    background-color: pink;
+}
+
+@keyframes bigger {
+    from {
+        opacity: 0;
+        transform: scale(0);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes moove {
+    50% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(10px);
+    }
+
+    150% {
+        transform: translateX(0);
+    }
+
+    200% {
+        transform: translateX(10px);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .magic-card {
+        animation: none;
+        transition: none;
+    }
+
+    .magic-card:hover {
+        transform: none;
+    }
+}
