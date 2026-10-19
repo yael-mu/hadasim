@@ -1,0 +1,178 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+#intro h3 {
+    font-family: 'Century Gothic';
+    font-size: 14px;
+    line-height: 24px;
+    background: linear-gradient(0deg, #2B3087 0%, #00B4EC 81.99%), #FFD100;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+
+#intro h1 {
+    font-family: 'Century Gothic';
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+#intro p {
+    font-family: 'Century Gothic';
+    font-size: 14px;
+    line-height: 22px;
+    color: #DDE2FF;
+    opacity: 0.6;
+}
+
+#intro button {
+    width: 147px;
+    height: 48px;
+    background: #22A75D;
+    box-shadow: 0px 15px 25px rgba(34, 167, 93, 0.25);
+    border-radius: 52px;
+}
+
+#back {
+    width: 100%;
+}
+
+#for {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.for-card {
+    background: #171B29;
+    border-radius: 25px;
+    padding: 25px;
+}
+
+.for-card h1 {
+    font-family: 'Century Gothic';
+    font-size: 28px;
+    line-height: 54px;
+    color: #FFFFFF;
+}
+
+.for-card p {
+    font-family: 'Century Gothic';
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.for-card #Creators {
+    color: rgb(34 167 93);
+    text-decoration: underline;
+}
+
+.for-card #Holders {
+    color: rgb(34 120 212);
+    text-decoration: underline;
+}
+
+.for-card a {
+    font-family: Century Gothic;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-decoration: underline;
+    color: #22A75D;
+}
+
+.for-card a img {
+    margin-left: 5px;
+}
+
+#tag {
+    height: 100px;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (min-width: 600px) {
+
+    #intro h1 {
+        font-family: 'Century Gothic';
+        font-size: 36px;
+        line-height: 40px;
+        letter-spacing: -0.02em;
+        color: #FFFFFF;
+    }
+
+    #intro p {
+        font-family: 'Century Gothic';
+        font-size: 14px;
+        line-height: 22px;
+        color: #DDE2FF;
+        opacity: 0.6;
+    }
+
+    #intro button {
+        width: 147px;
+        height: 48px;
+        background: #22A75D;
+        box-shadow: 0px 15px 25px rgba(34, 167, 93, 0.25);
+        border-radius: 52px;
+    }
+
+    .for-card h1 {
+        left: 8%;
+        top: 750px;
+        width: 300px;
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .for-card p {
+        left: 8%;
+        top: 810px;
+        width: 400px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .up {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #intro {
+        margin: 50px;
+        width: 480px;
+    }
+
+    #for {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .for-card {
+        width: 700px;
+    }
+
+    #blue {
+        transform: translateY(50px);
+    }
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

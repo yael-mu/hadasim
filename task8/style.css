@@ -1,16 +1,21 @@
 body{
-    background-color: rgb(255, 225, 230);
+    background-color: rgb(250, 233, 233);
 }
 .all_card {
-    margin: auto;
-    width: 60%;
+    /* margin: auto;
+    width: 60%; */
+    display: grid;
+    grid-template-rows: 3fr;
+    grid-template-columns: 1fr 60% 1fr;
+    gap: 20px;
 }
 
 .card {
     border: 1px solid black;
     border-radius: 15px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     padding: 5px;
+    grid-column: 2;
 }
 
 .card:hover {
