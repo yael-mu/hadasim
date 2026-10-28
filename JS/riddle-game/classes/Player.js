@@ -4,8 +4,8 @@ export default class Player {
         this.time = [];
     }
 
-    recordTime(start, end) {
-        const duration = (end - start) / 1000;
+    recordTime(start, end, addTime) {
+        const duration = (end - start) / 1000 + addTime;
         this.time.push(duration);
     };
 
