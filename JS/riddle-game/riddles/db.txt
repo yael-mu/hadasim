@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Easy Math",
+    "taskDescription": "What is 5 + 3?",
+    "correctAnswer": "8",
+    "difficulty": "easy",
+    "timeLimit": 2,
+    "clue": "big from 5"
+  },
+  {
+    "id": 2,
+    "name": "Basic Addition",
+    "taskDescription": "What is 7 + 6?",
+    "correctAnswer": "13",
+    "difficulty": "medium",
+    "timeLimit": 3,
+    "clue": "bug from 10"
+  },
+  {
+    "id": 3,
+    "name": "Simple Subtraction",
+    "taskDescription": "What is 10 - 4?",
+    "correctAnswer": "6",
+    "difficulty": "hard",
+    "timeLimit": 4,
+    "clue": "big from 5"
+  }
+]
